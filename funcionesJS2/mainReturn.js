@@ -19,15 +19,15 @@ function resta (a, b){
 
 let num1 = parseInt (prompt('Introduce el primero número:'));
 let num2 = parseInt (prompt('Introduce el segundo número:'));
-let resultado;
 let operacion = prompt('¿Que operación quieres hacer? Responde solo con signo + o -');
+
+let resultado;
 
 if (operacion == '+'){
     resultado = suma(num1,num2);
 }
 else if (operacion == '-'){
     resultado = resta(num1,num2);  
-    
 }
 else{
     resultado = 'Prueba nuevamente introduciendo solo los signos + o -';
